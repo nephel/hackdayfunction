@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	event := cfevents.NewCfEvent(myfunc.Handle, "myapp")
+	event := cfevents.NewCfEvent(myfunc.Handle)
 	event.Run()
 }
