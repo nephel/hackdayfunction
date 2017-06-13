@@ -1,0 +1,6 @@
+---
+applications:
+  - name: hackdayfunction
+    command: ./hackdayfunction
+    no-route: true
+    buildpack: binary_buildpack
