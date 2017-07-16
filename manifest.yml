@@ -1,11 +1,10 @@
 ---
 applications:
   - name: hackdayfunction
-    command: ./hackdayfunction
+    command: hackdayfunction
     no-route: true
     buildpack: go_buildpack
     memory: 32MB
     instances: 0
     env:
-      GOVERSION: go1.8
       GOPACKAGENAME: hackdayfunction

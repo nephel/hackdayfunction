@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	event := cfevents.NewCfEvent(myfunc.Handle)
+	event := cfevents.NewCfEvent(hackdayfunction.Handle)
 	event.Run()
 }
