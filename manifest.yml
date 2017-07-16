@@ -4,3 +4,5 @@ applications:
     command: ./hackdayfunction
     no-route: true
     buildpack: binary_buildpack
+    memory: 32MB
+    instances: 0
