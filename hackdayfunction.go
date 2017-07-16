@@ -1,4 +1,4 @@
-package myfunc
+package hackdayfunction
 
 import (
 	"fmt"
