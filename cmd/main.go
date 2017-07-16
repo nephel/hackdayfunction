@@ -1,8 +1,8 @@
 package main
 
 import (
-	"github.com/samze/cfevents"
-	"github.com/samze/hackdayfunction"
+	"github.com/nephel/cfevents"
+	"github.com/nephel/hackdayfunction"
 )
 
 func main() {
