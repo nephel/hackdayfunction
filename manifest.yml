@@ -1,7 +1,6 @@
 ---
 applications:
   - name: hackdayfunction
-    command: hackdayfunction
     no-route: true
     buildpack: go_buildpack
     memory: 32MB
